@@ -49,6 +49,11 @@ nav ul li .item-link{
     color: var(--Black);
     font-size: 15px;
     font-weight: 500;
+    cursor: pointer;
+}
+.item-link:hover{
+    color: var(--Dark-red);
+    transition: all ease-in-out .3s;
 }
 .drop-down{
     width: 10px;
