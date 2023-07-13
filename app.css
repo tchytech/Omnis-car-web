@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +30,7 @@ ul li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 0px 2px ;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
     
@@ -48,8 +47,8 @@ nav ul li .item-link{
     align-items: center;
     justify-content: center;
     color: var(--Black);
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 500;
 }
 .drop-down{
     width: 10px;
