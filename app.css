@@ -1,1 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Main-red: hsla(350, 96%, 43%, 1);
+    --Dark-red: hsla(350, 96%, 36%, 1);
+    --Ox-blood: hsla(350, 96%, 9%, 1);
+    --Light_peach: hsla(350, 74%, 89%, 1);
+    --Light-red: hsla(347, 100%, 98%, 1);
+    --Grey: hsla(0, 0%, 35%, 1);
+    --Darkish-grey: hsla(0, 0%, 17%, 1);
+    --Black: hsla(0, 0%, 1%, 1);
+}
