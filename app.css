@@ -100,11 +100,12 @@ span {
 
 .HM-2 {
     width: 50rem;
-    height: 300px;
+    height: 350px;
     background-color: var(--Light-red);
     position: absolute;
     top:45rem ;
     left:100px ;
+    box-shadow: 20px 20px 20px;
     
 }
 
@@ -119,7 +120,42 @@ article {
 }
 
 .HM-3{
-    background-color: var(--Dark-red);
+    background-color: lightpink;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr );
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+input{
+    height: 50px;
+}
+
+.HM-4 {
+    height: 60px;
+    width: 150px;
+    background-color: var(--Black);
+    margin-left: 320px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.HM-4 a {
+    cursor: pointer;
+    color: var(--Light-red);
+    transition: 2s all;
+
+}
+
+a:hover {
+    background-color: var(--Light-red);
 }
 
 /*Login details*/
