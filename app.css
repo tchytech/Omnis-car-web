@@ -67,9 +67,9 @@ nav ul li .item-link{
 }
 /*hero section*/
 
-.hero-main{
+.hero-bg{
+    background-color: var(--Black);
     position: relative;
-    
 }
 
 .HM-1 {
@@ -156,10 +156,7 @@ a:hover {
     background-color: var(--Light-red);
 }
 
-<<<<<<< HEAD
-
 /* explore section */
-
 .explore-section {
     width: 100%;
     height: 250vh;
@@ -238,11 +235,3 @@ nav ul li a:hover {
 }*/
 
 
-
-
-
-
-/*Login details*/
-=======
-/*Login details*/
->>>>>>> 6f2fdffc994f01ed3930b33670ddc612455e0d4d
