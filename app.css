@@ -66,8 +66,23 @@ nav ul li .item-link{
     margin-right: 8em;
 }
 /*hero section*/
-.hero.text{
+.hero-bg{
+    z-index: 2;
+    position: relative;
+}
+.hero-video{
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.hero-text{
     text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-text h1{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 
