@@ -156,7 +156,6 @@ a:hover {
     background-color: var(--Light-red);
 }
 
-<<<<<<< HEAD
 
 /* explore section */
 
@@ -212,11 +211,14 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
+.n2 {
+    margin-top: 200px;
+}
+
 
 .container-2 {
     width:58rem ;
     height: 27rem;
-    background-color: brown;
     position: relative;
     top: 15rem;
     left:15rem ;
@@ -224,18 +226,11 @@ nav ul li a:hover {
     grid-template-columns: 1fr 1fr 220px;
     grid-template-rows: repeat(2,1fr);
     column-gap: 15px;
-    row-gap: 20px;
+    row-gap: 20px
 }
 
-.item {
-    background-color: blue;
-    
-}
-/*.item3 {
-    background-color: blueviolet;
-    width: 200px;
-    margin-left: 100px;
-}*/
+
+
 
 
 
@@ -243,6 +238,4 @@ nav ul li a:hover {
 
 
 /*Login details*/
-=======
 /*Login details*/
->>>>>>> 6f2fdffc994f01ed3930b33670ddc612455e0d4d
