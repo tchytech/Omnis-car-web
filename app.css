@@ -14,7 +14,7 @@ general settings
     --Ox-blood: hsla(350, 96%, 9%, 1);
     --Light_peach: hsla(350, 74%, 89%, 1);
     --Light-red: hsla(347, 100%, 98%, 1);
-    --Grey: hsla(0, 0%, 35%, 1);
+    --Grey: rgb(121, 121, 121);
     --Darkish-grey: hsla(0, 0%, 17%, 1);
     --Black: hsla(0, 0%, 1%, 1);
     --white: #fff;
@@ -74,11 +74,13 @@ nav ul li .item-link{
 .form{
     font-family: 'Poppins', san-serif;
     background-color: var(--Light-red);
-    margin: 8em 21em;
+    margin: 8em 25em;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    border-radius: 5px;
+    height: 80%;
+    padding: 5em 7em;
 }
 .form h1{
     text-align: center;
@@ -86,4 +88,40 @@ nav ul li .item-link{
 form{
     display: flex;
     flex-direction: column;
+}
+.form h1{
+    color: var(--Main-red);
+    font-size: 30px;
+    font-weight: 600;
+}
+.form label{
+    font-size: 12px;
+    margin-top: 1em;
+}
+.form input{
+    width: 100%;
+    height: 35px;
+    margin-top: 0.2em;
+    padding: 8px;
+    border: 1px solid var(--Grey);
+    border-radius: 5px;
+
+}
+.form p{
+    font-size: 10px;
+    margin-top: 0.4em;
+    color: var(--Dark-red);
+    font-weight: 600;
+}
+.form .primary-btn{
+    background-color: var(--Black);
+    color: var(--white);
+    border: none;
+    height: 35px;
+    margin-top: 2em;
+    border-radius: 5px;
+}
+.form .login{
+    padding: 8px;
+    height: 35px;
 }
