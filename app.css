@@ -83,7 +83,7 @@ nav ul li .item-link{
     right: 0;
     bottom: 0;
     left: 0;
-    height: 90%;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
     z-index: -99;
@@ -109,7 +109,7 @@ nav ul li .item-link{
     z-index: -1;
   }
   .hero-text{
-    margin: 10em 6.5em;
+    margin: 12em 6.5em;
     color: var(--white);
     z-index: 10;
     position: relative;
@@ -121,8 +121,13 @@ nav ul li .item-link{
     color: var(--Main-red);
   }
   .hero-text .hero-paragraph{
-    margin-top: 0.5em;
+    margin-top: 0.8em;
     line-height: 1.6;
+  }
+  /*hero-form*/
+  .hero-form{
+    z-index: 10;
+    position: relative;
   }
 /*login*/
 .form{
@@ -139,7 +144,7 @@ nav ul li .item-link{
 .form h1{
     text-align: center;
 }
-form{
+.form form{
     display: flex;
     flex-direction: column;
     margin: 2em 0;
