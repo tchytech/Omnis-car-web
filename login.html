@@ -10,7 +10,7 @@
 <body>
    <!--header starts here-->
     <div class="container">
-        <a href="index.html"> <img src="/images/logo.png" alt="logo" class="logo"></a>
+        <a href="index.html"><img src="/images/logo.png" alt="logo" class="logo"></a>
         <nav class="nav-item">
             <ul class="nav-list">
                 <li class="items"><a class="item-link" href="#">Vehicles</a><img src="/images/Vector.svg" class="drop-down" arrow"></li>
@@ -26,24 +26,23 @@
     
     <!--Login starts here-->
     <div class="form">
-        <h1 class="headling">Login with your ID</h1>
+        <h1 class="heading">Log in with your ID</h1>
         <form action="#">
             <label for="email">Email</label>
             <input type="text" name="email" id="email">
 
-            <label for="email">Password</label>
-            <input type="pwd" name="password" id="password">
-
-            <p>Forgot Your password?</p>
-            <input id="login" type="submit" Log in">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <p>Forgot Your Password?</p>
+            <button class="login primary-btn" type="submit">Log in</button>
             <div class="lines">
-                <div class="line"></div>
-                <p>or</p>
-                <div class="line"></div>
+                <hr class="line">
+                <span>or</span>
+                <hr class="line">
             </div>
-            <input type="submit" value="Log in">
-            <input type="submit" value="Log in">
-            <input type="submit" value="Log in">
+            <button class="login" type="submit">Continue with Apple</button>
+            <button class="login" type="submit">Continue with Google</button>
+            <button class="login" type="submit">Continue with Faacebook</button>
         </form>
         <p class="sign-up">Do not have an account? <span>Sign Up</span></p>
     </div>
