@@ -110,11 +110,11 @@ nav ul li .item-link{
     color: var(--white);
     z-index: 10;
     position: relative;
-    margin: 0 6em;
+    margin: 5em;
   }
   .hero-text .hero-heading{
     font-size: 50px;
-    margin-top: 7em;
+    margin-top: 5em;
   }
   .hero-text span{
     color: var(--Main-red);
@@ -132,8 +132,10 @@ nav ul li .item-link{
     box-shadow: 0px 0px 40px rgba(46, 46, 46, 0.5);
     width: 500px;
     height: 250px;
+    margin-left: 5em;
 }
 
+ /*
   .hero-form .tabContainer{
     height: 20%;
   }
@@ -162,6 +164,7 @@ nav ul li .item-link{
     margin-left: 0.4em;
 
   }
+  */
 /*login*/
 .form{
     font-family: 'Poppins', san-serif;
