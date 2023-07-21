@@ -8,9 +8,10 @@
     <title>OMNIS</title>
 </head>
 <body>
-   <!--header starts here-->
+   <main>
+    <!--header starts here-->
     <div class="container">
-       <a href="index.html"> <img src="/images/logo.png" alt="logo" class="logo"></a>
+        <a href="index.html"> <img src="/images/logo.png" alt="logo" class="logo"></a>
         <nav class="nav-item">
             <ul class="nav-list">
                 <li class="items"><a class="item-link drop-down" href="#"><img src="/images/Vector.svg">Vehicles</a></li>
@@ -40,12 +41,12 @@
         <div class="hero-form">
             <div class="tabs">
                 <ul>
-                    <li><label class="active">New Cars</label></li>
-                    <li><label>Certified Used Cars</label></li>
+                    <li><label for="newCars" class="active">New Cars</label></li>
+                    <li><label for="certified">Certified Used Cars</label></li>
                 </ul>
             </div>
             <div class="tabs-content">
-                <input type="radio" name="content-tab" id="">
+                <input type="radio" id="newCars" name="content-tab" checked>
                 <div class="tabs-form">
                     <form action="#">
                         <select name="brand/model" id="brand">
@@ -76,21 +77,21 @@
                             </optgroup>
                         </select>
                         <select name="price" id="price" value="Price Range">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                            <option value="#32,400,000">#32,400,000</option>
+                            <option value="#62,400,000">#62,400,000</option>
+                            <option value="#22,400,000">#22,400,000</option>
+                            <option value="#102,400,000">#102,400,000</option>
                         </select>
                         <select name="year" id="year" value="Year">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2010">2010</option>
+                            <option value="2007">2007</option>
                         </select>
         
                     </form>
                 </div>
-                <input type="radio" name="content-tab" id="">
+                <input type="radio" name="content-tab" id="certified">
                 <div class="tabs-form">
                     <form action="#">
                         <select name="brand/model" id="brand">
@@ -121,10 +122,10 @@
                             </optgroup>
                         </select>
                         <select name="price" id="price" value="Price Range">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                            <option value="#2,400,000">#2,400,000</option>
+                            <option value="#6,200,000">#6,200,000</option>
+                            <option value="#5,900,000">#5,900,000</option>
+                            <option value="#10,300,000">#10,300,000</option>
                         </select>
                         <select name="year" id="year" value="Year">
                             <option value=""></option>
@@ -138,8 +139,9 @@
             </div>
         </div>
     </div>
-<!--explore section-->
-<h1></h1>
+</div>
+</main>
+    
 <script src="app.js"></script>
 </body>
 </html>

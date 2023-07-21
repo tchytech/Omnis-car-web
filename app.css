@@ -150,11 +150,6 @@ nav ul li .item-link{
     text-align: center;
 
 }
-.tabs ul li label.active{
-    background-color: var(--Light_peach);
-    width: 200%;
-    margin-left: 0em;
-}
 .tabs-content{
 
 }
@@ -168,11 +163,15 @@ nav ul li .item-link{
     top: -10000px;
     display: none;
 }
+.tabs-content input:checked{
+    background-color: var(--Light_peach);
+    width: 200%;
+}
+.tabs-content input:checked + .tabs-form{
+    display: block;
+}
 .tabs-form{
     padding: 20px;
-}
-.tabs-form:nth-of-type(1){
-    display: block;
 }
 .tabs-form select{
     margin: 0px 18px 20px;
