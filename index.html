@@ -27,7 +27,7 @@
     <!--Hero section starts here-->
     <div class="hero-section">
         <video height="600px">
-            <source class="hero-video" src="Videos/pexels-erik-mclean-13643099 (1440p).mp4" muted loop autoplay>
+            <source class="hero-video" src="Videos/pexels-erik-mclean-13643099 (1440p).mp4" muted loop autoplay plays-inline>
         </video>
         <div class="overlay"></div>
         <div class="hero-text">
@@ -39,13 +39,14 @@
         </div>
         <div class="hero-form hero-text">
             <div class="tabContainer">
-                <button class="button active" onclick="showFormDetails(0, '#fff')">New Cars</button>
-                <button class="button" onclick="showFormDetails(1, '#fff')">Certified Used Cars</button>
+                <button id="NewCars" class="button active">New Cars</button>
+                <button id="verified" class="button">Certified Used Cars</button>
             </div>
             <div class="form-details">
                 <form action="#">
                     <select name="brand/model" id="brand">
                         <optgroup label="Brand/Model">
+                            <option value="brand/model">Brand/Models</option>
                             <option value="jeep">Jeep</option>
                             <option value="cadillac">Cadillac</option>
                             <option value="bentley">Bentley</option>
@@ -59,7 +60,8 @@
                         </optgroup>
                     </select>
                     <select name="color" id="color">
-                        <optgroup label="Brand/Model">
+                        <optgroup label="Color">
+                            <option value="Color">Color</option>
                             <option value="black">Black</option>
                             <option value="white">White</option>
                             <option value="grey">Grey</option>
@@ -88,7 +90,8 @@
     
                 </form>
             </div>
-            <div class="form-details">
+                    <!--
+                                    <div class="form-details">
                 <form action="#">
                     <select name="brand/model" id="brand">
                         <optgroup label="Brand/Model">
@@ -131,13 +134,13 @@
                         <option value=""></option>
                         <option value=""></option>
                     </select>
-    
+                    -->
+                    <input type="button" value="Find Car">
                 </form>
             </div>
     </div>
-
 <!--explore section-->
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae modi veniam ratione labore impedit molestias cumque quos sapiente dicta atque.</p>
+<h1></h1>
 <script src="app.js"></script>
 </body>
 </html>

@@ -104,6 +104,7 @@ nav ul li .item-link{
     height: 100vh;
     width: 100%;
     z-index: -1;
+    margin-top: 3em;
   }
   .hero-text{
     color: var(--white);
@@ -113,7 +114,7 @@ nav ul li .item-link{
   }
   .hero-text .hero-heading{
     font-size: 50px;
-    margin-top: 6em;
+    margin-top: 7em;
   }
   .hero-text span{
     color: var(--Main-red);
@@ -129,13 +130,12 @@ nav ul li .item-link{
     position: relative;
     background-color: var(--white);
     box-shadow: 0px 0px 40px rgba(46, 46, 46, 0.5);
-    margin-top: 2em;
     width: 500px;
-    height: 300px;
+    height: 250px;
 }
 
   .hero-form .tabContainer{
-    height: 15%;
+    height: 20%;
   }
   .hero-form .tabContainer button.active{
     background-color: var(--Light_peach);
@@ -150,17 +150,18 @@ nav ul li .item-link{
     font-size: 16px;
     cursor: pointer;
   }
- .tabContainer button:hover{
-    background-color: var(--Dark-red);
-    color: var(--Light-red);
+  .hero-form form{
+    margin: 2em;
   }
-  .hero-form .form-details{
-    height: 85%;
-    padding-top: 105px;
-    box-sizing: border-box;
-    display: none;
-  }
+  .hero-form form select{
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    outline: none;
+    margin-left: 0.4em;
 
+  }
 /*login*/
 .form{
     font-family: 'Poppins', san-serif;
