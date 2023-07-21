@@ -150,6 +150,11 @@ nav ul li .item-link{
     text-align: center;
 
 }
+.tabs ul li label.active{
+    background-color: var(--Light_peach);
+    width: 200%;
+    margin-left: 0em;
+}
 .tabs-content{
 
 }
