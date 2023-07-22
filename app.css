@@ -127,84 +127,6 @@ nav ul li .item-link{
     font-size: 18px;
   }
   /*hero-form*/
-  .hero-form{
-    z-index: 10;
-    position: relative;
-    background-color: var(--white);
-    box-shadow: 0px 0px 40px rgba(46, 46, 46, 0.5);
-    width: 700px;
-    height: 300px;
-    margin-left: 5em;
-}
-.tabs ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.tabs ul li label{
-    position: relative;
-    display: block;
-    padding: 15px;
-    font-size: 18px;
-    cursor: pointer;
-    width: 100%;
-    margin-left: 5em;
-    text-align: center;
-
-}
-.tabs-content input{
-    position: absolute;
-    z-index: -100;
-    margin: 0;
-    width: 0;
-    height: 0;
-    top: -10000px;
-    display: none;
-}
-.tabs-content input:checked{
-    background-color: var(--Light_peach);
-    width: 200%;
-}
-.tabs-content input:checked + .tabs-form{
-    display: block;
-}
-.tabs-form{
-    padding: 20px;
-}
-.tabs-form select{
-    margin: 0px 18px 20px;
-    width: 43%;
-    padding: 10px;
-}
-
-  .hero-form .tabContainer{
-    height: 20%;
-  }
-  .hero-form .tabContainer button.active{
-    background-color: var(--Light_peach);
-  }
-  .hero-form .tabContainer button{
-    width: 250px;
-    height: 100%;
-    float: left;
-    border: none;
-    outline: none;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  .hero-form form{
-    margin: 2em;
-  }
-  .hero-form form select{
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    width: 200px;
-    outline: none;
-    margin-left: 0.4em;
-
-  }
 
 
   /*explore*/
@@ -222,16 +144,15 @@ nav ul li .item-link{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 20px;
     border-bottom: 2px solid var(--Grey);
-    margin-left: 15em;
+    margin-left: 19em;
     position: relative;
   }
   .explore-tab .tab-btn{
     color: var(--Grey);
     background: none;
     border: none;
-    margin-right: 25px;
+    margin-right: 20px;
     padding: 12px;
     cursor: pointer;
   }
@@ -253,6 +174,52 @@ nav ul li .item-link{
 .explore-content .explore-cards.active{
     display: block;
 }
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 4em;
+}
+.card-box .card-explore{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.card-explore img{
+    width: 130px;
+}
+.card-box .card-explore .card{
+    background-color: var(--Black);
+    height: 182px;
+    width: 150px;
+    text-align: center;
+    color: var(--white);
+    padding: 10px;
+}
+.card .card-text{
+    font-size: 12px;
+    margin-top: 15px;
+}
+.card .card-heading{
+    font-size: 13px;
+    margin-top: 15px;
+}
+.card .card-text1{
+    font-size: 10px;
+    margin-top: 6px;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+}
+
+.box-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.box-cards .card1 h3,
+.box-cards .card2 h3{
+    font-size: 18px;
+}
 .explore-line{
     top: 42px;
     left: 17px;
@@ -264,6 +231,59 @@ nav ul li .item-link{
     border-radius: 5px;
 }
 
+.explore-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6em 1.5em;
+}
+.explore-btn .explore-btn1{
+    background-color: var(--Black);
+    padding: 12px;
+    border: none;
+    margin-right: 7em;
+    border-radius: 5px;
+    color: var(--white);
+}
+.explore-btn .explore-btn2{
+    border: none;
+    background-color: transparent;
+}
+.explore-btn .explore-btn2 a{
+    color: var(--Black);
+}
+/* detail */
+.detail{
+    background-color: var(--Darkish-grey);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    color: var(--white);
+}
+.detail-heading{
+    font-size: 26px;
+    margin-top: .6em;
+    text-align: center;
+}
+.detail-card{
+    margin-top: 2.8em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.detail-cards{
+    border: 1px solid var(--white);
+    padding: 50px;
+    border-radius: 5px;
+}
+.detail-cards img{
+    margin-left: 1.5em;
+}
+.detail-cards p{
+    margin-top: 1em;
+    text-align: center;
+}
 /*login*/
 .form{
     font-family: 'Poppins', san-serif;
