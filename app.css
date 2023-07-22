@@ -17,7 +17,7 @@ general settings
     --Ox-blood: hsla(350, 96%, 9%, 1);
     --Light_peach: rgb(235, 193, 200);
     --Light-red: hsla(347, 100%, 98%, 1);
-    --Grey: rgb(121, 121, 121);
+    --Grey: rgb(159, 156, 156);
     --Darkish-grey: hsla(0, 0%, 17%, 1);
     --Black: hsla(0, 0%, 1%, 1);
     --white: #fff;
@@ -222,21 +222,46 @@ nav ul li .item-link{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 18px;
-    border-bottom: 2px solid var(--Main-red);
+    font-size: 20px;
+    border-bottom: 2px solid var(--Grey);
+    margin-left: 15em;
+    position: relative;
   }
   .explore-tab .tab-btn{
     color: var(--Grey);
     background: none;
     border: none;
-    padding: 18px;
+    margin-right: 25px;
+    padding: 12px;
     cursor: pointer;
+  }
+  .explore-tab .tab-btn.active{
+    color: var(--Main-red);
   }
 .explore-content{
     padding: 20px;
 }
 .explore-content .explore-cards{
     display: none;
+    animation: moving .5s ease;
+}
+
+@keyframes moving{
+    from{transform: translateX(50px);opacity: 0;}
+    to{transform: translateX(0px);opacity: 1;}
+}
+.explore-content .explore-cards.active{
+    display: block;
+}
+.explore-line{
+    top: 42px;
+    left: 17px;
+    width: 90px;
+    height: 5px;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    background-color: var(--Main-red);
+    border-radius: 5px;
 }
 
 /*login*/
