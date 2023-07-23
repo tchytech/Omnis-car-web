@@ -130,7 +130,8 @@ nav ul li .item-link{
 
 
   /*explore*/
-  .explore{
+  .explore,
+  .brand{
    padding: 20px;
    margin-top: 3em;
   }
@@ -139,7 +140,8 @@ nav ul li .item-link{
     font-size: 32px;
     text-align: center;
   }
-  .explore-tab{
+  .explore-tab,
+  .brand-tab{
     width: 50%;
     display: flex;
     justify-content: space-around;
@@ -148,7 +150,8 @@ nav ul li .item-link{
     margin-left: 19em;
     position: relative;
   }
-  .explore-tab .tab-btn{
+  .explore-tab .tab-btn,
+  .brand-tab .tab-btn1{
     color: var(--Grey);
     background: none;
     border: none;
@@ -156,13 +159,16 @@ nav ul li .item-link{
     padding: 12px;
     cursor: pointer;
   }
-  .explore-tab .tab-btn.active{
+  .explore-tab .tab-btn.active,
+  .brand-tab .tab-btn1.active{
     color: var(--Main-red);
   }
-.explore-content{
+.explore-content,
+.brand-content{
     padding: 20px;
 }
-.explore-content .explore-cards{
+.explore-content .explore-cards,
+.brand-content .brand-cards{
     display: none;
     animation: moving .5s ease;
 }
@@ -171,16 +177,19 @@ nav ul li .item-link{
     from{transform: translateX(50px);opacity: 0;}
     to{transform: translateX(0px);opacity: 1;}
 }
-.explore-content .explore-cards.active{
+.explore-content .explore-cards.active,
+.brand-content .brand-cards.active{
     display: block;
 }
-.card-box{
+.card-box,
+.brand-box{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: 0 4em;
 }
-.card-box .card-explore{
+.card-box .card-explore,
+.brand-box .card-brand{
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -220,7 +229,8 @@ nav ul li .item-link{
 .box-cards .card2 h3{
     font-size: 18px;
 }
-.explore-line{
+.explore-line,
+.brand-line{
     top: 42px;
     left: 17px;
     width: 90px;
