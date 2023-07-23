@@ -252,6 +252,8 @@ nav ul li .item-link{
 .explore-btn .explore-btn2 a{
     color: var(--Black);
 }
+
+
 /* detail */
 .detail{
     background-color: var(--Darkish-grey);
@@ -260,6 +262,7 @@ nav ul li .item-link{
     width: 100%;
     padding: 30px;
     color: var(--white);
+    margin-top: 4em;
 }
 .detail-heading{
     font-size: 26px;
@@ -283,6 +286,52 @@ nav ul li .item-link{
 .detail-cards p{
     margin-top: 1em;
     text-align: center;
+}
+
+/* about*/
+.about{
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+.about-heading{
+    color: var(--Main-red);
+    font-size: 28px;
+    text-align: center;
+}
+.about-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 15em;
+}
+.about-box img{
+    width: 400px;
+    height: 400px;
+    margin-right: 3em;
+}
+.about-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-numbers{
+    border: 1px solid var(--Main-red);
+    margin: 3em;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--white);
+    background-color: var(--Main-red);
+}
+.about-text h5{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.about-text p{
+    font-size: 10px;
+    margin-top: 15px;
+    line-height: 1.5;
 }
 /*login*/
 .form{
