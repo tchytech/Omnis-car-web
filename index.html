@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/logo.png">
     <link rel="stylesheet" href="app.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>OMNIS</title>
 </head>
@@ -32,11 +31,11 @@
     
     <!--Hero section starts here-->
     <div class="hero-section">
-        <video id="video1" width="320px" height="250" autoplay>
-            <source class="hero-video" src="Videos/pexels-erik-mclean-13643099 (1440p).mp4" controls>
+        <video id="video1" width="320px" height="250" autoplay loop>
+            <source class="hero-video" src="Videos/pexels-erik-mclean-13643099 (1440p).mp4" type="video/mp4">
         </video>
-        <video id="video2" width="320px" height="250" autoplay>
-            <source class="hero-video" src="/Videos/GHM_MY24_HybridMax_Lake_Homepage_Marquee_RF_08_TDR1920x796_5mb_TYTW2335000H.mp4" autoplay>
+        <video id="video2" width="320px" height="250" autoplay loop>
+            <source class="hero-video" src="/Videos/GHM_MY24_HybridMax_Lake_Homepage_Marquee_RF_08_TDR1920x796_5mb_TYTW2335000H.mp4" type="video/mp4">
         </video>
         <div class="overlay"></div>
         <div class="hero-text">
@@ -624,8 +623,8 @@
                     <p class="brand-text">Infiniti</p>
                 </div>
         <div class="brand-btn">
-            <button class="brand-btn1">Explore All Cars</button>
-            <button class="brand-btn2">Search Inventory <a href="search.html"><i class="fa fa-long-arrow-right"></i></a></button>
+            <button class="brand-btn1"><i class="fa fa-long-arrow-left"></i></button>
+            <button class="brand-btn2"><i class="fa fa-long-arrow-right"></i></button>
         </div>
     </section>
     <!--detail section-->
@@ -666,7 +665,6 @@
                 </div>
 
                 <div class="about-card">
-                    <p class="about-numbers">2</p>
                     <div class="about-text">
                         <h5>Exceptional Customer Service</h5>
                         <p>Omnis prides itself on providing exceptional customer service throughout the car-buying process.
@@ -692,19 +690,70 @@
     <section class="discovery">
         <h2 class="discover-heading">Discover The New Possibilities</h2>
         <div class="discover-section">
-            <video width="320px" height="250" autoplay loop plays-inline>
-                <source class="discover-video" src="/Videos/CRW_MY23_LCH_MLPWelcomeHPDesktop_TCOM_WelcomeMat_NA-New_ENG_10_1920x1080_TYCK1927000H.mp4" >
+            <video width="320px" height="250" autoplay loop>
+                <source class="discover-video" src="/Videos/CRW_MY23_LCH_MLPWelcomeHPDesktop_TCOM_WelcomeMat_NA-New_ENG_10_1920x1080_TYCK1927000H.mp4" type="video/mp4">
             </video>
             <div class="discover-text">
                 <h3 class="discover-header">Drive on!</h3>
                 <p class="discover-paragraph">There is no greater necessity than<br>
                 change. Explore and embrace the <br> change that has defined <br>
-            Omnis Motors</p>
+                Omnis Motors</p>
             <button class="discover-btn">Discover the Possibilities</button>
             </div>
     </section>
 </main>
-    
+    <footer class="footer">
+        <div class="footer-section">
+            <div class="footer-details">
+                <img src="/images/Asset 3.png" alt="logo" class="logo">
+                <p class="logo-details">Experience You Never Want to Meet</p>
+                <div class="social-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                </div>
+            </div>
+            <div class="footer-details">
+                <h5 class="footer-heading">Vehicles</h5>
+                <ul>
+                    <li>Cars & Minivan</li>
+                    <li>Trucks</li>
+                    <li>SUVs</li>
+                    <li>Upcoming Vehicles</li>
+                </ul>
+            </div>
+            <div class="footer-details">
+                <h5 class="footer-heading">Shopping Tools</h5>
+                <ul>
+                    <li>Request Quote</li>
+                    <li>Test Drive</li>
+                    <li>Find Dealer</li>
+                </ul>
+            </div>
+            <div class="footer-details">
+                <h5 class="footer-heading">Search Inventory</h5>
+            </div>
+            <div class="footer-details">
+                <h5 class="footer-heading">Contact</h5>
+                <div class="contact-details">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Lagos,Nigeria</p>
+                </div>
+                <div class="contact-details">
+                    <i class="fa fa-phone"></i>
+                    <p>+2343 802 0983 023</p>
+                </div>
+                <div class="contact-details">
+                    <i class="fa fa-minus-square-o"></i>
+                    <p>Omnis34@uk.com</p>
+                </div>
+            </div>
+        
+        </div>
+    </footer>
+    <div class="bottom">
+        <p>&#169; Omnis 2023</p>
+    </div>
 <script src="app.js"></script>
 </body>
 </html>
