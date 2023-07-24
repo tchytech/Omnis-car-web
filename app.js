@@ -1,3 +1,20 @@
+const videos1 = document.getElementById('video1');
+const videos2 = document.getElementById('video2');
+
+videos1.addEventListener('ended', function(e) {
+    videos1.style.display = 'none';
+    videos2.style.display = 'block';
+
+    videos2.play();
+});
+
+videos2.addEventListener('ended', function(e) {
+    videos2.style.display = 'none';
+    videos1.style.display = 'block';
+
+    videos1.play();
+});
+
 const exploreTabs = document.querySelectorAll('.tab-btn');
 const exploreContent = document.querySelectorAll('.explore-cards');
 

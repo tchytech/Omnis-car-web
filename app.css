@@ -90,6 +90,9 @@ nav ul li .item-link{
     overflow: hidden;
     position: relative;
 }
+#video2{
+    display: none;
+}
 .overlay{
     position: absolute;
     top: 0;
