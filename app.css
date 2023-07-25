@@ -427,23 +427,13 @@ nav ul li .item-link{
     height: 70vh;
     width: 70%;
     z-index: -1;
- 
+    margin-left: 10em;
 }
 
 
 .discover-text{
     color: var(--white);
-    z-index: 10;
-    position: relative;
   }
-.discover-text .discover-header{
-    font-size: 18px;
-}
-
-.discover-text .discover-paragraph{
-  line-height: 1.5;
-  font-size: 10px;
-}
 .discover-text .discover-btn{
     background-color: var(--Black);
     color: var(--white);
