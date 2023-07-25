@@ -266,7 +266,7 @@ form select{
 .box-cards .card2 h3{
     font-size: 18px;
 }
-.explore-line,
+.explore-line,                                                                                                                                               
 .brand-line{
     top: 42px;
     left: 8px;
@@ -289,7 +289,7 @@ form select{
     padding: 12px;
     border: none;
     font-size: 10px;
-    margin-right: 5em;
+    margin-right: 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  em;
     border-radius: 5px;
     color: var(--white);
 }
