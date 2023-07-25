@@ -150,9 +150,8 @@ nav ul li .item-link{
     width: 50%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     border-bottom: 2px solid var(--Grey);
-    margin-left: 19em;
+    margin-left: 16em;
     position: relative;
   }
   .explore-tab .tab-btn,
@@ -193,8 +192,7 @@ nav ul li .item-link{
     justify-content: space-evenly;
     margin: 0 4em;
 }
-.card-box .card-explore,
-.brand-box .card-brand{
+.card-box .card-explore{
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -237,8 +235,8 @@ nav ul li .item-link{
 .explore-line,
 .brand-line{
     top: 42px;
-    left: 17px;
-    width: 90px;
+    left: 8px;
+    width: 80px;
     height: 5px;
     position: absolute;
     transition: all .3s ease-in-out;
@@ -268,7 +266,16 @@ nav ul li .item-link{
     color: var(--Black);
 }
 
+.card-brand{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
 
+.card-brand img{
+    width: 250px;
+    margin-top: 1.8em;
+}
 /* detail */
 .detail{
     background-color: var(--Darkish-grey);
