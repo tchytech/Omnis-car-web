@@ -424,16 +424,15 @@ nav ul li .item-link{
 .discover-section video{
     position: absolute;
     object-fit: cover;
-    height: 70vh;
-    width: 70%;
+    height: 60vh;
+    width: 68%;
     z-index: -1;
     margin-left: 10em;
 }
-
-
 .discover-text{
     color: var(--white);
-  }
+    position: relative;
+}
 .discover-text .discover-btn{
     background-color: var(--Black);
     color: var(--white);
