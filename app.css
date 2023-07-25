@@ -97,7 +97,7 @@ nav ul li .item-link{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
 }
@@ -106,7 +106,7 @@ nav ul li .item-link{
     top: 0;
     left: 0;
     object-fit: cover;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     z-index: -1;
     margin: 0 auto;
@@ -115,11 +115,11 @@ nav ul li .item-link{
     color: var(--white);
     z-index: 10;
     position: relative;
-    margin:6em 5em;
+    margin:5em;
   }
   .hero-text .hero-heading{
     font-size: 32px;
-    margin-top: 4em;
+    margin-top: 6em;
   }
   .hero-text span{
     color: var(--Main-red);
@@ -132,13 +132,24 @@ nav ul li .item-link{
   /*hero-form*/
 .hero-form{
     position: relative;
+    width: 300px;
+    margin-left: 5em;
+    height: 200px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 40px rgba(46, 46, 46, 0.5);
+}
+.hero-form ul{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    font-size: 12px;
 }
 
   /*explore*/
   .explore,
   .brand{
    padding: 20px;
-   margin-top: 3em;
+   margin-top: 6em;
   }
   .explore-heading{
     color: var(--Main-red);
@@ -200,6 +211,7 @@ nav ul li .item-link{
 }
 .card-explore img{
     width: 130px;
+    height: 182px;
 }
 .card-box .card-explore .card{
     background-color: var(--Black);
