@@ -20,29 +20,35 @@
         </nav>
         <div class="profile">
                 <img src="/images/profile-circle.svg" class="user-profile" alt="User">
-            </div>
+        </div>
     </div>
     <!--header ends here-->
     
     <!--Login starts here-->
     <div class="form">
-        <h1 class="heading">Log in with your ID</h1>
+        <h1 class="heading">Create Your Account</h1>
+        <p style="text-align: ceneter; font-size: 12px; color: hsla(0, 0%, 17%, 1);">You don not appear to have an Omnis owner account. <br>
+            Fill out the form below to get started</p>
         <form action="#">
             <label for="email">Email</label>
             <input type="text" name="email" id="email">
 
+            <label for="Name">First Name</label>
+            <input type="text" name="email" id="email">
+
+            <label for="Name">Last Name</label>
+            <input type="text" name="name" id="name">
+
+            <label for="mobile-number">Mobile Number</label>
+            <input type="number" name="number" id="number">
+            
             <label for="password">Password</label>
             <input type="password" name="password" id="password">
-            <p>Forgot Your Password?</p>
-            <button class="login primary-btn" type="submit"><a href="index.html" style="color: white;">Log in</a></button>
-            <div class="lines">
-                <span style="text-align: center; margin: 3em 10.4em; color: hsla(350, 96%, 43%, 1);">or</span>
-            </div>
-            <button class="login" type="submit">Continue with Apple</button>
-            <button class="login" type="submit">Continue with Google</button>
-            <button class="login" type="submit">Continue with Faacebook</button>
+
+            <button class="login primary-btn" type="submit"><a href="login.html" style="color: white;">Create Account</a></button>
+            <p class="sign-up" style="text-align: center; margin: 1em 10.4em; color: hsla(0, 0%, 17%, 1);">Already have an Account? <span style="color: hsla(350, 96%, 36%, 1);">Login</span></p>
         </form>
-        <p class="sign-up" style="text-align: center; margin: 3em 10.4em; color: hsla(350, 96%, 43%, 1);">Do not have an account? <a style="color: red;" href="signup.html">Sign up</a></p>
+        
     </div>
     <!--footer starts here-->
     <footer class="footer">

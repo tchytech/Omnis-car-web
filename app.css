@@ -399,13 +399,13 @@ form select{
 .form{
     font-family: 'Poppins', san-serif;
     background-color: var(--Light-red);
-    margin: 2em 13em;
+    margin: 1em 13em;
+    margin-bottom: 3em;
     justify-content: center;
     align-items: center;
     width: 60%;
-    height: 700px;
+    height: 100vh;
     border-radius: 5px;
-    height: 80%;
     padding: 5em 7em;
 }
 .form form{
@@ -416,7 +416,6 @@ form select{
     color: var(--Main-red);
     font-size: 26px;
     text-align: center;
-
     font-weight: 600;
 }
 .form label{
@@ -451,7 +450,11 @@ form select{
     height: 35px;
 }
 .form button{
-    margin-top: 1.5em;
+    margin-top: 2em;
+
+}
+.form footer{
+    margin-top: 5em;
 }
 /*discover*/
 .discovery{
