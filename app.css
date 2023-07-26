@@ -266,7 +266,7 @@ form select{
 .box-cards .card2 h3{
     font-size: 18px;
 }
-.explore-line,
+.explore-line,                                                                                                                                               
 .brand-line{
     top: 42px;
     left: 8px;
@@ -289,7 +289,7 @@ form select{
     padding: 12px;
     border: none;
     font-size: 10px;
-    margin-right: 5em;
+    margin-right: 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  em;
     border-radius: 5px;
     color: var(--white);
 }
@@ -399,25 +399,23 @@ form select{
 .form{
     font-family: 'Poppins', san-serif;
     background-color: var(--Light-red);
-    margin: 4em 25em;
+    margin: 1em 13em;
+    margin-bottom: 3em;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 60%;
+    height: 100vh;
     border-radius: 5px;
-    height: 80%;
     padding: 5em 7em;
-}
-.form h1{
-    text-align: center;
 }
 .form form{
     display: flex;
     flex-direction: column;
-    margin: 2em 0;
 }
 .form h1{
     color: var(--Main-red);
-    font-size: 30px;
+    font-size: 26px;
+    text-align: center;
     font-weight: 600;
 }
 .form label{
@@ -450,6 +448,13 @@ form select{
 .form .login{
     padding: 8px;
     height: 35px;
+}
+.form button{
+    margin-top: 2em;
+
+}
+.form footer{
+    margin-top: 5em;
 }
 /*discover*/
 .discovery{
